@@ -1,0 +1,53 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #2C2C2C;
+    color: #F4EEE0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 64px 16px;
+    text-align: center;
+}
+
+h1 {
+    color: #FF4500;
+    font-weight: bold;
+}
+
+h2 {
+    color: #F4EEE0;
+    font-weight: bold;
+}
+
+.film-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.film-panel {
+    background: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 300px;
+}
+
+.film-panel img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.film-info {
+    text-align: left;
+    padding: 10px 0;
+}
+
+.embed-video {
+    width: 100%;
+    border-radius: 10px;
+}

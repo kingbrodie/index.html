@@ -1,0 +1,180 @@
+/* Global Font Styles */
+h1, h2, h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #F4EEE0; /* Soft Beige for readability */
+}
+
+body {
+    font-family: "Helvetica", sans-serif; /* Set body text to Helvetica */
+    background-color: #393646; /* Dark Base Background */
+    color: #F4EEE0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.w3-top {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.w3-bar {
+    font-family: "Montserrat", sans-serif; /* Set Navbar text to Montserrat */
+    background-color: #4F4557 !important; /* Elegant Dark Gray */
+}
+
+.w3-bar a {
+    color: #F4EEE0 !important; /* Soft Beige Text */
+    text-decoration: none;
+    padding: 14px 16px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+.w3-bar a:hover {
+    background-color: #6D5D6E !important; /* Muted Purple for Hover Effect */
+    color: #F4EEE0 !important;
+}
+
+/* Dropdown Styling */
+.w3-dropdown-hover:hover .w3-dropdown-content {
+    display: block;
+}
+
+.w3-dropdown-content {
+    background-color: #6D5D6E !important; /* Muted Purple */
+    position: absolute;
+    min-width: 160px;
+    display: none;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.w3-dropdown-content a {
+    color: #F4EEE0 !important;
+    display: block;
+    padding: 12px 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.w3-dropdown-content a:hover {
+    background-color: #4F4557 !important; /* Dark Gray Hover */
+    color: #F4EEE0 !important;
+}
+
+/* Header Section (About Me Panel) */
+header {
+    font-family: "Montserrat", sans-serif; /* Keep headers in Montserrat */
+    background-color: #6D5D6E;
+    color: #F4EEE0;
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Section Panels (Consistent Styling with About Me Panel) */
+.section {
+    background-color: #4F4557; /* Dark Gray Panels */
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 85%;
+    margin: 30px auto;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+    color: #F4EEE0;
+    text-align: center;
+}
+
+/* Individual Panels */
+.childhood {
+    background-color: #6D5D6E; /* Muted Purple */
+}
+
+.teenage {
+    background-color: #5A4D5D; /* Slightly Darker Purple */
+}
+
+.college {
+    background-color: #4F4557; /* Dark Gray */
+}
+
+/* Paragraph Styling */
+.section p {
+    font-family: "Helvetica", sans-serif; /* Ensure paragraphs use Helvetica */
+    text-align: justify; /* Justified text */
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Ensure White Text for Specific Sections */
+.childhood p, .teenage p, .college p {
+    color: #FFFFFF !important; /* Force White Text */
+}
+
+/* Image Styling */
+.section img {
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+    max-width: 100%;
+}
+
+.section img:hover {
+    transform: scale(1.05);
+}
+
+/* Button Styling */
+.w3-button {
+    font-family: "Montserrat", sans-serif; /* Keep buttons in Montserrat */
+    background-color: #6D5D6E !important; /* Muted Purple */
+    color: #F4EEE0 !important;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+}
+
+.w3-button:hover {
+    background-color: #4F4557 !important; /* Dark Gray */
+    color: #F4EEE0 !important;
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #F4EEE0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .section {
+        padding: 30px;
+        max-width: 95%;
+    }
+
+    img {
+        max-width: 90%;
+    }
+}
+
+.childhood, 
+.teenage, 
+.college {
+    color: #FFFFFF !important; /* Force White Text */
+}
+
+h1, h2 {
+    color: #F4EEE0 !important;
+}
+

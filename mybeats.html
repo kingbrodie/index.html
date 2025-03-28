@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Beats - Arksean Dale Pabatao</title>
+
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:700|Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    
+    <style>
+        body { font-family: "Montserrat", sans-serif; background-color: #393646; color: #F4EEE0; }
+        .container { padding: 64px 16px; text-align: center; }
+        h1, h2 { color: #F4EEE0; font-weight: bold; }
+        .song-container { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; }
+        .song-panel { background: #4F4557; padding: 20px; border-radius: 10px; box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3); text-align: center; width: 300px; }
+        .song-panel img { width: 100%; border-radius: 10px; }
+        .audio-player { width: 100%; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+            <a href="aboutme.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+            <a href="skills.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SKILLS</a>
+            <a href="resume.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESUME</a>
+            <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">GALLERY</a>          
+            <a href="mybeats.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MY BEATS</a>
+            <a href="myfilms.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MY FILMS</a>
+            <a href="places.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DREAM PLACES</a>
+            <a href="bucketlist.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BUCKET LIST</a>
+        </div>
+    </div>
+
+    <!-- My Beats Section -->
+    <div class="container">
+        <h1>My Beats</h1>
+        <div class="song-container">
+            <!-- Hip-Hop -->
+            <div class="song-panel">
+                <h2>Hip-Hop</h2>
+                <img src="dr dre.jpg" alt="Hip-Hop Album Cover">
+                <p><strong>Song:</strong> Still D.R.E</p>
+                <p><strong>Artist:</strong> Dr. Dre ft. Snoop Dog</p>
+                <audio class="audio-player" controls>
+                    <source src="DR DRE SNIPPET.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <!-- R&B -->
+            <div class="song-panel">
+                <h2>R&B</h2>
+                <img src="exhange.jpg" alt="R&B Album Cover">
+                <p><strong>Song:</strong> Exchange</p>
+                <p><strong>Artist:</strong> Bryson Tiller</p>
+                <audio class="audio-player" controls>
+                    <source src="EXHANGE SNIPPET.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <!-- Rock -->
+            <div class="song-panel">
+                <h2>Rock</h2>
+                <img src="3doorsdown.jpg" alt="Rock Album Cover">
+                <p><strong>Song:</strong> Here Without You</p>
+                <p><strong>Artist:</strong> 3 Doors Down</p>
+                <audio class="audio-player" controls>
+                    <source src="3 DOORS DOWN SNIPPET.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
